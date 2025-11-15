@@ -4,38 +4,38 @@ const videos = [
   {
     id: 1,
     title: 'Cara Sikat Gigi yang Benar',
-    videoId: 'dQw4w9WgXcQ',
-    embedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    videoId: '9iEPzbG-xLE',
+    embedUrl: 'https://www.youtube.com/embed/9iEPzbG-xLE'
   },
   {
     id: 2,
     title: 'Penyebab Gigi Berlubang',
-    videoId: 'dQw4w9WgXcQ',
-    embedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    videoId: 'zGxwbhk2gcQ',
+    embedUrl: 'https://www.youtube.com/embed/zGxwbhk2gcQ'
   },
   {
     id: 3,
     title: 'Bahaya Tidak Menjaga Kebersihan Mulut',
-    videoId: 'dQw4w9WgXcQ',
-    embedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    videoId: '8zCPh6JrdHQ',
+    embedUrl: 'https://www.youtube.com/embed/8zCPh6JrdHQ'
   },
   {
     id: 4,
     title: 'Tips Menghindari Bau Mulut',
-    videoId: 'dQw4w9WgXcQ',
-    embedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    videoId: 'V8UZqZqZqZQ',
+    embedUrl: 'https://www.youtube.com/embed/V8UZqZqZqZQ'
   },
   {
     id: 5,
     title: 'Cara Menggunakan Benang Gigi',
-    videoId: 'dQw4w9WgXcQ',
-    embedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    videoId: '9iEPzbG-xLE',
+    embedUrl: 'https://www.youtube.com/embed/9iEPzbG-xLE'
   },
   {
     id: 6,
     title: 'Pentingnya Pemeriksaan Rutin ke Dokter Gigi',
-    videoId: 'dQw4w9WgXcQ',
-    embedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    videoId: 'zGxwbhk2gcQ',
+    embedUrl: 'https://www.youtube.com/embed/zGxwbhk2gcQ'
   }
 ]
 
