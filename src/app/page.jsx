@@ -48,8 +48,8 @@ export default function Home() {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/9iEPzbG-xLE?rel=0&modestbranding=1"
-              title="Cara Merawat Kesehatan Gigi dan Mulut"
+              src="https://www.youtube.com/embed/BaUnfIaI1rE?rel=0&modestbranding=1"
+              title="Video Edukasi Kesehatan Gigi"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
