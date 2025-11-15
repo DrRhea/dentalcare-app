@@ -15,9 +15,6 @@ export default function Navbar() {
             <Link href="/about" className="text-gray-700 hover:text-blue-600 transition">
               Tentang
             </Link>
-            <Link href="/report" className="text-gray-700 hover:text-blue-600 transition">
-              Raport Digital
-            </Link>
             <Link href="/edukasi" className="text-gray-700 hover:text-blue-600 transition">
               Edukasi
             </Link>
