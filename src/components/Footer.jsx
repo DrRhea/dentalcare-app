@@ -6,13 +6,13 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4" style={{ color: '#275766' }}>SI BUNDA GIGI</h3>
+            <h3 className="text-xl font-bold mb-4 text-accent">SI BUNDA GIGI</h3>
             <p style={{ color: '#275766' }}>
               SAHABAT IBU HAMIL-INGAT PERIKSA GIGI. Platform edukasi kesehatan gigi untuk ibu hamil untuk meningkatkan kesadaran tentang pentingnya menjaga kesehatan gigi dan mulut selama kehamilan.
             </p>
           </div>
           <div>
-            <h4 className="text-lg font-semibold mb-4" style={{ color: '#275766' }}>Tautan Cepat</h4>
+            <h4 className="text-lg font-semibold mb-4 text-accent">Tautan Cepat</h4>
             <ul className="space-y-2">
               <li>
                 <Link href="/about" className="hover:underline transition" style={{ color: '#275766' }}>
@@ -37,7 +37,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className="text-lg font-semibold mb-4" style={{ color: '#275766' }}>Hubungi Kami</h4>
+            <h4 className="text-lg font-semibold mb-4 text-accent">Hubungi Kami</h4>
             <ul className="space-y-2">
               <li>
                 <a 
