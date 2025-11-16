@@ -2,16 +2,19 @@ import Card from '@/components/Card'
 import Button from '@/components/Button'
 
 export default function Konsultasi() {
-  const whatsappNumber = '6281234567890'
-  const whatsappMessage = 'Halo%20saya%20ingin%20konsultasi'
+  const whatsappNumber = '6285746600074'
+  const whatsappMessage = 'Halo%2C%20saya%20ingin%20konsultasi'
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`
 
   return (
     <div className="bg-gray-50 min-h-screen py-16">
       <div className="container mx-auto px-4 max-w-3xl">
         <h1 className="text-4xl font-bold text-center text-secondary mb-4">
-          Konsultasi
+          Konsultasi Online
         </h1>
+        <p className="text-center text-secondary mb-2">
+          <strong>085746600074 (WA)</strong>
+        </p>
         <p className="text-center text-secondary mb-12">
           Butuh bantuan atau konsultasi tentang kesehatan gigi? Hubungi kami melalui WhatsApp
         </p>

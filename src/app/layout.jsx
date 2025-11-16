@@ -1,6 +1,7 @@
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
 export const metadata = {
   title: 'SI BUNDA GIGI - SAHABAT IBU HAMIL-INGAT PERIKSA GIGI',
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <Footer />
+        <FloatingWhatsApp />
       </body>
     </html>
   )
