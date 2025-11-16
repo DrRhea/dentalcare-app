@@ -3,39 +3,15 @@ import VideoCard from '@/components/VideoCard'
 const videos = [
   {
     id: 1,
-    title: 'Cara Sikat Gigi yang Benar',
-    videoId: 'BaUnfIaI1rE',
-    embedUrl: 'https://www.youtube.com/embed/BaUnfIaI1rE'
+    title: 'Video Edukasi Kesehatan Gigi untuk Ibu Hamil',
+    videoId: 'ZPndF7FjMU8',
+    embedUrl: 'https://www.youtube.com/embed/ZPndF7FjMU8'
   },
   {
     id: 2,
-    title: 'Penyebab Gigi Berlubang',
-    videoId: 'BaUnfIaI1rE',
-    embedUrl: 'https://www.youtube.com/embed/BaUnfIaI1rE'
-  },
-  {
-    id: 3,
-    title: 'Bahaya Tidak Menjaga Kebersihan Mulut',
-    videoId: 'BaUnfIaI1rE',
-    embedUrl: 'https://www.youtube.com/embed/BaUnfIaI1rE'
-  },
-  {
-    id: 4,
-    title: 'Tips Menghindari Bau Mulut',
-    videoId: 'BaUnfIaI1rE',
-    embedUrl: 'https://www.youtube.com/embed/BaUnfIaI1rE'
-  },
-  {
-    id: 5,
-    title: 'Cara Menggunakan Benang Gigi',
-    videoId: 'BaUnfIaI1rE',
-    embedUrl: 'https://www.youtube.com/embed/BaUnfIaI1rE'
-  },
-  {
-    id: 6,
-    title: 'Pentingnya Pemeriksaan Rutin ke Dokter Gigi',
-    videoId: 'BaUnfIaI1rE',
-    embedUrl: 'https://www.youtube.com/embed/BaUnfIaI1rE'
+    title: 'Video Edukasi Kesehatan Gigi untuk Ibu Hamil',
+    videoId: 'HZUsvK8bE2k',
+    embedUrl: 'https://www.youtube.com/embed/HZUsvK8bE2k'
   }
 ]
 
