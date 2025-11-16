@@ -12,7 +12,7 @@ export default function Button({
   
   const variants = {
     primary: "bg-secondary text-white hover:bg-secondary/90 shadow-md hover:shadow-lg",
-    secondary: "bg-gray-200 text-gray-800 hover:bg-gray-300",
+    secondary: "bg-accent/20 text-accent hover:bg-accent/30 border border-accent/30",
     outline: "border-2 border-secondary text-secondary hover:bg-primary"
   }
 
