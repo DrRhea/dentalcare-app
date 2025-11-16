@@ -2,7 +2,7 @@ import Card from '@/components/Card'
 
 export default function About() {
   return (
-    <div className="bg-gray-50 min-h-screen py-16">
+    <div className="bg-gradient-to-b from-primary to-white min-h-screen py-16">
       <div className="container mx-auto px-4">
         {/* Tentang Kami */}
         <section className="mb-16">

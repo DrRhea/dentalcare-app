@@ -17,7 +17,7 @@ const videos = [
 
 export default function Edukasi() {
   return (
-    <div className="bg-gray-50 min-h-screen py-16">
+    <div className="bg-gradient-to-b from-primary to-white min-h-screen py-16">
       <div className="container mx-auto px-4">
         <h1 className="text-4xl font-bold text-center text-secondary mb-4">
           Video Kesehatan Gigi

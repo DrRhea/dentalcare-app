@@ -1,6 +1,6 @@
 export default function Card({ title, description, children, className = "" }) {
   return (
-    <div className={`bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow ${className}`}>
+    <div className={`bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow border border-primary/20 ${className}`}>
       {title && (
         <h3 className="text-xl font-semibold text-secondary mb-3">{title}</h3>
       )}

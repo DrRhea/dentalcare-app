@@ -123,7 +123,7 @@ export default function Status() {
 
   if (showResult) {
     return (
-      <div className="bg-gray-50 min-h-screen py-16">
+      <div className="bg-gradient-to-b from-primary to-white min-h-screen py-16">
         <div className="container mx-auto px-4 max-w-4xl">
           <Card>
             <h1 className="text-3xl font-bold text-center text-secondary mb-8">
@@ -189,7 +189,7 @@ export default function Status() {
   }
 
   return (
-    <div className="bg-gray-50 min-h-screen py-16">
+    <div className="bg-gradient-to-b from-primary to-white min-h-screen py-16">
       <div className="container mx-auto px-4 max-w-4xl">
         <h1 className="text-4xl font-bold text-center text-secondary mb-4">
           Status Kesehatan Gigi
