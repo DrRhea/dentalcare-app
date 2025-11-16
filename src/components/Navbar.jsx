@@ -21,12 +21,6 @@ export default function Navbar() {
             <Link href="/status" className="text-gray-700 hover:text-pink-600 transition">
               Status
             </Link>
-            <Link href="/pretest" className="text-gray-700 hover:text-pink-600 transition">
-              Pretest
-            </Link>
-            <Link href="/konsultasi" className="text-gray-700 hover:text-pink-600 transition">
-              Konsultasi
-            </Link>
             <Link href="/contact" className="text-gray-700 hover:text-pink-600 transition">
               Kontak
             </Link>
