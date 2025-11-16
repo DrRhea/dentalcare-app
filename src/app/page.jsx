@@ -1,20 +1,35 @@
 import Button from '@/components/Button'
 import Card from '@/components/Card'
+import Image from 'next/image'
 
 export default function Home() {
   return (
     <div className="bg-gradient-to-b from-pink-50 to-white">
       {/* Hero Section */}
-      <section className="container mx-auto px-4 py-20 text-center">
-        <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6">
-          SAHABAT IBU HAMIL<br />INGAT PERIKSA GIGI
-        </h1>
-        <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          Platform edukasi kesehatan gigi untuk ibu hamil untuk meningkatkan kesadaran tentang pentingnya menjaga kesehatan gigi dan mulut selama kehamilan. Pelajari cara merawat gigi dengan benar dan cegah masalah kesehatan gigi sejak dini.
-        </p>
-        <Button href="/pretest" variant="primary">
-          Mulai Pretest
-        </Button>
+      <section className="relative h-screen min-h-[100vh] w-full overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/image-si-bunda.jpg"
+            alt="SI BUNDA GIGI - Sahabat Ibu Hamil"
+            fill
+            className="object-cover object-center"
+            priority
+          />
+          <div className="absolute inset-0 bg-white/20"></div>
+        </div>
+        <div className="relative z-10 flex h-full items-center justify-center">
+          <div className="container mx-auto px-4 text-center">
+            <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6 drop-shadow-lg">
+              SAHABAT IBU HAMIL<br />INGAT PERIKSA GIGI
+            </h1>
+            <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto drop-shadow-md bg-white/80 px-6 py-4 rounded-lg">
+              Platform edukasi kesehatan gigi untuk ibu hamil untuk meningkatkan kesadaran tentang pentingnya menjaga kesehatan gigi dan mulut selama kehamilan. Pelajari cara merawat gigi dengan benar dan cegah masalah kesehatan gigi sejak dini.
+            </p>
+            <Button href="/pretest" variant="primary">
+              Mulai Pretest
+            </Button>
+          </div>
+        </div>
       </section>
 
       {/* Apa itu Kesehatan Gigi - 3 Kolom Card */}
