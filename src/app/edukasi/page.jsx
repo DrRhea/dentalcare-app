@@ -22,7 +22,7 @@ export default function Edukasi() {
         <h1 className="text-4xl font-bold text-center text-secondary mb-4">
           Video Kesehatan Gigi
         </h1>
-        <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+        <p className="text-center text-secondary mb-12 max-w-2xl mx-auto">
           Pelajari cara menjaga kesehatan gigi dan mulut melalui video edukasi berikut
         </p>
 

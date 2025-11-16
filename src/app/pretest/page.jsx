@@ -100,7 +100,7 @@ export default function Pretest() {
               <p className="text-2xl text-secondary mb-2">
                 Anda menjawab {score} dari {total} soal dengan benar
               </p>
-              <p className="text-xl text-gray-600">
+              <p className="text-xl text-secondary">
                 Skor: {percentage}%
               </p>
             </div>
@@ -113,7 +113,7 @@ export default function Pretest() {
                 return (
                   <div key={q.id} className={`p-4 rounded-lg border-2 ${isCorrect ? 'bg-green-50 border-green-300' : 'bg-red-50 border-red-300'}`}>
                     <p className="font-semibold text-secondary mb-2">{q.question}</p>
-                    <p className="text-sm text-gray-600">
+                    <p className="text-sm text-secondary">
                       Jawaban Anda: <span className="font-semibold">{q.options[userAnswer] || 'Tidak dijawab'}</span>
                     </p>
                     {!isCorrect && (
@@ -149,7 +149,7 @@ export default function Pretest() {
         <h1 className="text-4xl font-bold text-center text-secondary mb-4">
           Kuis Pretest
         </h1>
-        <p className="text-center text-gray-600 mb-12">
+        <p className="text-center text-secondary mb-12">
           Uji pengetahuan Anda tentang kesehatan gigi dengan menjawab pertanyaan berikut
         </p>
 
