@@ -12,10 +12,10 @@ export default function About() {
           <div className="max-w-3xl mx-auto">
             <Card>
               <p className="text-gray-700 leading-relaxed mb-4">
-                DentalCare adalah platform edukasi kesehatan gigi yang bertujuan untuk meningkatkan kesadaran masyarakat tentang pentingnya menjaga kesehatan gigi dan mulut. Kami menyediakan berbagai informasi, video edukasi, dan layanan konsultasi untuk membantu Anda menjaga kesehatan gigi dengan lebih baik.
+                SAHABAT IBU HAMIL-INGAT PERIKSA GIGI (SI BUNDA GIGI) adalah platform edukasi kesehatan gigi yang bertujuan untuk meningkatkan kesadaran ibu hamil tentang pentingnya menjaga kesehatan gigi dan mulut selama kehamilan. Kami menyediakan berbagai informasi, video edukasi, dan layanan konsultasi untuk membantu ibu hamil menjaga kesehatan gigi dengan lebih baik.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                Melalui platform ini, kami berharap dapat membantu mengurangi masalah kesehatan gigi di masyarakat dengan memberikan edukasi yang mudah diakses dan dipahami oleh semua kalangan.
+                Melalui platform ini, kami berharap dapat membantu mengurangi masalah kesehatan gigi pada ibu hamil dengan memberikan edukasi yang mudah diakses dan dipahami oleh semua kalangan.
               </p>
             </Card>
           </div>

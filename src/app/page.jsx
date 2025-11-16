@@ -7,10 +7,10 @@ export default function Home() {
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-20 text-center">
         <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6">
-          Edukasi Kesehatan Gigi
+          SAHABAT IBU HAMIL<br />INGAT PERIKSA GIGI
         </h1>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          Platform edukasi kesehatan gigi untuk meningkatkan kesadaran masyarakat tentang pentingnya menjaga kesehatan gigi dan mulut. Pelajari cara merawat gigi dengan benar dan cegah masalah kesehatan gigi sejak dini.
+          Platform edukasi kesehatan gigi untuk ibu hamil untuk meningkatkan kesadaran tentang pentingnya menjaga kesehatan gigi dan mulut selama kehamilan. Pelajari cara merawat gigi dengan benar dan cegah masalah kesehatan gigi sejak dini.
         </p>
         <Button href="/pretest" variant="primary">
           Mulai Pretest

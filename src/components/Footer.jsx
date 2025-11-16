@@ -6,9 +6,9 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">DentalCare</h3>
+            <h3 className="text-xl font-bold mb-4">SI BUNDA GIGI</h3>
             <p className="text-gray-400">
-              Platform edukasi kesehatan gigi untuk meningkatkan kesadaran masyarakat tentang pentingnya menjaga kesehatan gigi dan mulut.
+              SAHABAT IBU HAMIL-INGAT PERIKSA GIGI. Platform edukasi kesehatan gigi untuk ibu hamil untuk meningkatkan kesadaran tentang pentingnya menjaga kesehatan gigi dan mulut selama kehamilan.
             </p>
           </div>
           <div>
@@ -69,7 +69,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 DentalCare. Hak Cipta Dilindungi.</p>
+          <p>&copy; 2024 SI BUNDA GIGI. Hak Cipta Dilindungi.</p>
         </div>
       </div>
     </footer>

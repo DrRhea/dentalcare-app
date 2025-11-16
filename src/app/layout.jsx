@@ -3,8 +3,8 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 export const metadata = {
-  title: 'DentalCare - Edukasi Kesehatan Gigi',
-  description: 'Platform edukasi kesehatan gigi untuk meningkatkan kesadaran masyarakat tentang pentingnya menjaga kesehatan gigi dan mulut',
+  title: 'SI BUNDA GIGI - SAHABAT IBU HAMIL-INGAT PERIKSA GIGI',
+  description: 'Platform edukasi kesehatan gigi untuk ibu hamil untuk meningkatkan kesadaran tentang pentingnya menjaga kesehatan gigi dan mulut selama kehamilan',
 }
 
 export default function RootLayout({ children }) {
