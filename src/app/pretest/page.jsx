@@ -94,7 +94,7 @@ export default function Pretest() {
             </h1>
             
             <div className="text-center mb-8">
-              <div className="text-6xl font-bold text-blue-600 mb-4">
+              <div className="text-6xl font-bold text-pink-600 mb-4">
                 {score}/{total}
               </div>
               <p className="text-2xl text-gray-700 mb-2">
@@ -165,8 +165,8 @@ export default function Pretest() {
                     key={index}
                     className={`flex items-center p-3 rounded-lg border-2 cursor-pointer transition ${
                       answers[q.id] === index
-                        ? 'border-blue-500 bg-blue-50'
-                        : 'border-gray-200 hover:border-blue-300'
+                        ? 'border-pink-500 bg-pink-50'
+                        : 'border-gray-200 hover:border-pink-300'
                     }`}
                   >
                     <input
@@ -175,7 +175,7 @@ export default function Pretest() {
                       value={index}
                       checked={answers[q.id] === index}
                       onChange={() => handleAnswer(q.id, index)}
-                      className="mr-3 w-4 h-4 text-blue-600"
+                      className="mr-3 w-4 h-4 text-pink-600"
                     />
                     <span className="text-gray-700">{option}</span>
                   </label>

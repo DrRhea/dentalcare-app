@@ -5,26 +5,26 @@ export default function Navbar() {
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-xl font-bold text-blue-600">
+          <Link href="/" className="text-xl font-bold text-pink-600">
             SI BUNDA GIGI
           </Link>
           <div className="hidden md:flex space-x-6">
-            <Link href="/" className="text-gray-700 hover:text-blue-600 transition">
+            <Link href="/" className="text-gray-700 hover:text-pink-600 transition">
               Home
             </Link>
-            <Link href="/about" className="text-gray-700 hover:text-blue-600 transition">
+            <Link href="/about" className="text-gray-700 hover:text-pink-600 transition">
               Tentang
             </Link>
-            <Link href="/edukasi" className="text-gray-700 hover:text-blue-600 transition">
+            <Link href="/edukasi" className="text-gray-700 hover:text-pink-600 transition">
               Edukasi
             </Link>
-            <Link href="/pretest" className="text-gray-700 hover:text-blue-600 transition">
+            <Link href="/pretest" className="text-gray-700 hover:text-pink-600 transition">
               Pretest
             </Link>
-            <Link href="/konsultasi" className="text-gray-700 hover:text-blue-600 transition">
+            <Link href="/konsultasi" className="text-gray-700 hover:text-pink-600 transition">
               Konsultasi
             </Link>
-            <Link href="/contact" className="text-gray-700 hover:text-blue-600 transition">
+            <Link href="/contact" className="text-gray-700 hover:text-pink-600 transition">
               Kontak
             </Link>
           </div>

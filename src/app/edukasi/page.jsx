@@ -75,7 +75,7 @@ export default function Edukasi() {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="bg-blue-50 p-6 rounded-lg">
+          <div className="bg-pink-50 p-6 rounded-lg">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">Tips Menonton Video</h2>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>Simak dengan baik setiap langkah yang dijelaskan dalam video</li>

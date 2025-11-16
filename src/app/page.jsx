@@ -3,7 +3,7 @@ import Card from '@/components/Card'
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-b from-blue-50 to-white">
+    <div className="bg-gradient-to-b from-pink-50 to-white">
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-20 text-center">
         <h1 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6">
