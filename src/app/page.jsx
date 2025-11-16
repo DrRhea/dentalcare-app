@@ -42,20 +42,36 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
           Video Edukasi
         </h2>
-        <div className="max-w-4xl mx-auto">
-          <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden shadow-lg">
-            <iframe
-              width="100%"
-              height="100%"
-              src="https://www.youtube.com/embed/ZPndF7FjMU8?rel=0&modestbranding=1"
-              title="Video Edukasi Kesehatan Gigi"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              className="w-full h-full"
-            ></iframe>
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+            <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/ZPndF7FjMU8?rel=0&modestbranding=1"
+                title="Video Edukasi Kesehatan Gigi untuk Ibu Hamil"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full h-full"
+              ></iframe>
+            </div>
+            <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/HZUsvK8bE2k?rel=0&modestbranding=1"
+                title="Video Edukasi Kesehatan Gigi untuk Ibu Hamil"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full h-full"
+              ></iframe>
+            </div>
           </div>
         </div>
         <div className="text-center mt-8">
