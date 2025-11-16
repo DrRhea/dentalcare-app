@@ -11,11 +11,8 @@ export default function About() {
           </h1>
           <div className="max-w-3xl mx-auto">
             <Card>
-              <p className="text-gray-700 leading-relaxed mb-4">
-                SAHABAT IBU HAMIL-INGAT PERIKSA GIGI (SI BUNDA GIGI) adalah platform edukasi kesehatan gigi yang bertujuan untuk meningkatkan kesadaran ibu hamil tentang pentingnya menjaga kesehatan gigi dan mulut selama kehamilan. Kami menyediakan berbagai informasi, video edukasi, dan layanan konsultasi untuk membantu ibu hamil menjaga kesehatan gigi dengan lebih baik.
-              </p>
               <p className="text-gray-700 leading-relaxed">
-                Melalui platform ini, kami berharap dapat membantu mengurangi masalah kesehatan gigi pada ibu hamil dengan memberikan edukasi yang mudah diakses dan dipahami oleh semua kalangan.
+                SI BUNDA GIGI merupakan platform edukasi kesehatan gigi yang dibuat untuk ibu hamil. Web ini bertujuan untuk meningkatkan pengetahuan ibu hamil tentang pentingnya menjaga kesehatan gigi selama kehamilan. Pelajari cara merawat gigi yang baik dan benar selama masa kehamilan melalui video interaktif, status kesehatan gigi ibu hamil dan konsultasi dengan dokter gigi.
               </p>
             </Card>
           </div>
