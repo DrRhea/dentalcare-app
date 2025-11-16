@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         primary: '#fef5ee',
         secondary: '#275766',
+        accent: '#d8706b', // Warna untuk teks bold, lebih gelap dari #fe8b86 untuk kontras
       },
     },
   },

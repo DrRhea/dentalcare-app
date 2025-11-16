@@ -126,14 +126,14 @@ export default function Status() {
       <div className="bg-gradient-to-b from-primary to-white min-h-screen py-16">
         <div className="container mx-auto px-4 max-w-4xl">
           <Card>
-            <h1 className="text-3xl font-bold text-center text-secondary mb-8">
+            <h1 className="text-3xl font-bold text-center text-accent mb-8">
               Hasil Skrining Kesehatan Gigi
             </h1>
             
             <div className="mb-8">
               <div className={`p-6 rounded-lg border-2 ${riskLevel.color} mb-6`}>
-                <h2 className="text-2xl font-bold mb-2">Skor: {score} poin</h2>
-                <h3 className="text-xl font-semibold mb-2">Risiko {riskLevel.level}</h3>
+                <h2 className="text-2xl font-bold text-accent mb-2">Skor: {score} poin</h2>
+                <h3 className="text-xl font-semibold text-accent mb-2">Risiko {riskLevel.level}</h3>
                 <p className="text-lg">{riskLevel.message}</p>
               </div>
               
@@ -191,7 +191,7 @@ export default function Status() {
   return (
     <div className="bg-gradient-to-b from-primary to-white min-h-screen py-16">
       <div className="container mx-auto px-4 max-w-4xl">
-        <h1 className="text-4xl font-bold text-center text-secondary mb-4">
+        <h1 className="text-4xl font-bold text-center text-accent mb-4">
           Status Kesehatan Gigi
         </h1>
         <p className="text-center text-secondary mb-12">
@@ -202,7 +202,7 @@ export default function Status() {
           <form onSubmit={handleSubmit} className="space-y-8">
             {/* Data Identitas Singkat */}
             <div>
-              <h2 className="text-2xl font-bold text-secondary mb-6">Data Identitas Singkat</h2>
+              <h2 className="text-2xl font-bold text-accent mb-6">Data Identitas Singkat</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="nama" className="block text-secondary font-semibold mb-2">
@@ -274,7 +274,7 @@ export default function Status() {
 
             {/* Skrining Kesehatan Gigi */}
             <div>
-              <h2 className="text-2xl font-bold text-secondary mb-6">Skrining Kesehatan Gigi</h2>
+              <h2 className="text-2xl font-bold text-accent mb-6">Skrining Kesehatan Gigi</h2>
               <div className="space-y-4">
                 {[
                   { name: 'sakitGigi', label: 'Apakah ibu sering mengalami sakit gigi?' },
@@ -369,7 +369,7 @@ export default function Status() {
 
             {/* Kebiasaan Kebersihan Gigi */}
             <div>
-              <h2 className="text-2xl font-bold text-secondary mb-6">Kebiasaan Kebersihan Gigi</h2>
+              <h2 className="text-2xl font-bold text-accent mb-6">Kebiasaan Kebersihan Gigi</h2>
               <div className="space-y-4">
                 <div>
                   <label htmlFor="frekuensiSikat" className="block text-secondary font-semibold mb-2">

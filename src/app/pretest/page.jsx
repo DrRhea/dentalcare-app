@@ -89,7 +89,7 @@ export default function Pretest() {
       <div className="bg-gray-50 min-h-screen py-16">
         <div className="container mx-auto px-4 max-w-3xl">
           <Card>
-            <h1 className="text-3xl font-bold text-center text-secondary mb-8">
+            <h1 className="text-3xl font-bold text-center text-accent mb-8">
               Hasil Pretest
             </h1>
             
@@ -112,7 +112,7 @@ export default function Pretest() {
                 
                 return (
                   <div key={q.id} className={`p-4 rounded-lg border-2 ${isCorrect ? 'bg-green-50 border-green-300' : 'bg-red-50 border-red-300'}`}>
-                    <p className="font-semibold text-secondary mb-2">{q.question}</p>
+                    <p className="font-semibold text-accent mb-2">{q.question}</p>
                     <p className="text-sm text-secondary">
                       Jawaban Anda: <span className="font-semibold">{q.options[userAnswer] || 'Tidak dijawab'}</span>
                     </p>
@@ -146,7 +146,7 @@ export default function Pretest() {
   return (
     <div className="bg-gray-50 min-h-screen py-16">
       <div className="container mx-auto px-4 max-w-3xl">
-        <h1 className="text-4xl font-bold text-center text-secondary mb-4">
+        <h1 className="text-4xl font-bold text-center text-accent mb-4">
           Kuis Pretest
         </h1>
         <p className="text-center text-secondary mb-12">

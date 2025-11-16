@@ -32,7 +32,7 @@ export default function Contact() {
   return (
     <div className="bg-gradient-to-b from-primary to-white min-h-screen py-16">
       <div className="container mx-auto px-4 max-w-3xl">
-        <h1 className="text-4xl font-bold text-center text-secondary mb-4">
+        <h1 className="text-4xl font-bold text-center text-accent mb-4">
           Kontak Kami
         </h1>
         <p className="text-center text-secondary mb-12">
@@ -103,7 +103,7 @@ export default function Contact() {
           </form>
 
           <div className="mt-8 pt-8 border-t border-gray-200">
-            <h3 className="text-lg font-semibold text-secondary mb-4">Informasi Kontak</h3>
+            <h3 className="text-lg font-semibold text-accent mb-4">Informasi Kontak</h3>
             <div className="space-y-3 text-secondary mb-8">
               <div className="flex items-center">
                 <svg className="w-5 h-5 text-secondary mr-2" fill="currentColor" viewBox="0 0 24 24">

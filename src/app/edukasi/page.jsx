@@ -19,7 +19,7 @@ export default function Edukasi() {
   return (
     <div className="bg-gradient-to-b from-primary to-white min-h-screen py-16">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center text-secondary mb-4">
+        <h1 className="text-4xl font-bold text-center text-accent mb-4">
           Video Kesehatan Gigi
         </h1>
         <p className="text-center text-secondary mb-12 max-w-2xl mx-auto">
@@ -44,7 +44,7 @@ export default function Edukasi() {
                 ></iframe>
               </div>
               <div className="p-4">
-                <h3 className="text-lg font-semibold text-secondary">{video.title}</h3>
+                <h3 className="text-lg font-semibold text-accent">{video.title}</h3>
               </div>
             </div>
           ))}
@@ -52,7 +52,7 @@ export default function Edukasi() {
 
         <div className="max-w-4xl mx-auto">
           <div className="bg-primary p-6 rounded-lg">
-            <h2 className="text-2xl font-bold text-secondary mb-4">Tips Menonton Video</h2>
+            <h2 className="text-2xl font-bold text-accent mb-4">Tips Menonton Video</h2>
             <ul className="list-disc list-inside text-secondary space-y-2">
               <li>Simak dengan baik setiap langkah yang dijelaskan dalam video</li>
               <li>Praktikkan teknik yang diajarkan dalam kehidupan sehari-hari</li>

@@ -18,7 +18,7 @@ export default function Home() {
 
       {/* Apa itu Kesehatan Gigi - 3 Kolom Card */}
       <section className="container mx-auto px-4 py-16">
-        <h2 className="text-3xl font-bold text-center text-secondary mb-12">
+        <h2 className="text-3xl font-bold text-center text-accent mb-12">
           Apa itu Kesehatan Gigi?
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -39,7 +39,7 @@ export default function Home() {
 
       {/* Video Edukasi Section */}
       <section className="container mx-auto px-4 py-16 bg-white">
-        <h2 className="text-3xl font-bold text-center text-secondary mb-12">
+        <h2 className="text-3xl font-bold text-center text-accent mb-12">
           Video Edukasi
         </h2>
         <div className="max-w-6xl mx-auto">
