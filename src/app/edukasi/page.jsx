@@ -28,7 +28,7 @@ export default function Edukasi() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {videos.map((video) => (
-            <div key={video.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+            <div key={video.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-primary/20">
               <div className="aspect-video bg-gray-200">
                 <iframe
                   width="100%"
