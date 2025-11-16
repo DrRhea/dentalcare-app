@@ -156,7 +156,7 @@ export default function Pretest() {
         <div className="space-y-8 mb-8">
           {questions.map((q) => (
             <Card key={q.id}>
-              <h3 className="text-lg font-semibold text-secondary mb-4">
+              <h3 className="text-lg font-semibold text-accent mb-4">
                 {q.id}. {q.question}
               </h3>
               <div className="space-y-2">
