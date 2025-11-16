@@ -11,9 +11,9 @@ export default function Button({
   const baseClasses = "px-6 py-3 rounded-lg font-semibold transition-all duration-200 inline-block text-center"
   
   const variants = {
-    primary: "bg-pink-500 text-white hover:bg-pink-600 shadow-md hover:shadow-lg",
+    primary: "bg-secondary text-white hover:bg-secondary/90 shadow-md hover:shadow-lg",
     secondary: "bg-gray-200 text-gray-800 hover:bg-gray-300",
-    outline: "border-2 border-pink-500 text-pink-600 hover:bg-pink-50"
+    outline: "border-2 border-secondary text-secondary hover:bg-primary"
   }
 
   const classes = `${baseClasses} ${variants[variant]} ${className}`

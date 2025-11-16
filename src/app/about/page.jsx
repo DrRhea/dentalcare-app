@@ -6,12 +6,12 @@ export default function About() {
       <div className="container mx-auto px-4">
         {/* Tentang Kami */}
         <section className="mb-16">
-          <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
+          <h1 className="text-4xl font-bold text-center text-secondary mb-8">
             Tentang Kami
           </h1>
           <div className="max-w-3xl mx-auto">
             <Card>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-secondary leading-relaxed">
                 SI BUNDA GIGI merupakan platform edukasi kesehatan gigi yang dibuat untuk ibu hamil. Web ini bertujuan untuk meningkatkan pengetahuan ibu hamil tentang pentingnya menjaga kesehatan gigi selama kehamilan. Pelajari cara merawat gigi yang baik dan benar selama masa kehamilan melalui video interaktif, status kesehatan gigi ibu hamil dan konsultasi dengan dokter gigi.
               </p>
             </Card>
@@ -20,7 +20,7 @@ export default function About() {
 
         {/* Manfaat Menjaga Kesehatan Gigi */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
+          <h2 className="text-3xl font-bold text-center text-secondary mb-12">
             Manfaat Menjaga Kesehatan Gigi
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -45,7 +45,7 @@ export default function About() {
 
         {/* FAQ Section */}
         <section>
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">
+          <h2 className="text-3xl font-bold text-center text-secondary mb-12">
             Pertanyaan Umum (FAQ)
           </h2>
           <div className="max-w-3xl mx-auto space-y-6">

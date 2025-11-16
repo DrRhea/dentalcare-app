@@ -126,7 +126,7 @@ export default function Status() {
       <div className="bg-gray-50 min-h-screen py-16">
         <div className="container mx-auto px-4 max-w-4xl">
           <Card>
-            <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
+            <h1 className="text-3xl font-bold text-center text-secondary mb-8">
               Hasil Skrining Kesehatan Gigi
             </h1>
             
@@ -139,11 +139,11 @@ export default function Status() {
               
               <div className="space-y-4 mb-8">
                 <div className="border-b pb-4">
-                  <h3 className="font-semibold text-gray-700 mb-2">Data Identitas</h3>
-                  <p className="text-gray-600"><strong>Nama:</strong> {formData.nama || 'Tidak diisi'}</p>
-                  <p className="text-gray-600"><strong>Usia:</strong> {formData.usia || 'Tidak diisi'} tahun</p>
-                  <p className="text-gray-600"><strong>Usia Kehamilan:</strong> {formData.usiaKehamilan || 'Tidak diisi'}</p>
-                  <p className="text-gray-600"><strong>Nomor WA:</strong> {formData.nomorWA || 'Tidak diisi'}</p>
+                  <h3 className="font-semibold text-secondary mb-2">Data Identitas</h3>
+                  <p className="text-secondary"><strong>Nama:</strong> {formData.nama || 'Tidak diisi'}</p>
+                  <p className="text-secondary"><strong>Usia:</strong> {formData.usia || 'Tidak diisi'} tahun</p>
+                  <p className="text-secondary"><strong>Usia Kehamilan:</strong> {formData.usiaKehamilan || 'Tidak diisi'}</p>
+                  <p className="text-secondary"><strong>Nomor WA:</strong> {formData.nomorWA || 'Tidak diisi'}</p>
                 </div>
               </div>
             </div>
@@ -191,10 +191,10 @@ export default function Status() {
   return (
     <div className="bg-gray-50 min-h-screen py-16">
       <div className="container mx-auto px-4 max-w-4xl">
-        <h1 className="text-4xl font-bold text-center text-gray-800 mb-4">
+        <h1 className="text-4xl font-bold text-center text-secondary mb-4">
           Status Kesehatan Gigi
         </h1>
-        <p className="text-center text-gray-600 mb-12">
+        <p className="text-center text-secondary mb-12">
           Isi form di bawah ini untuk mengetahui status kesehatan gigi Anda
         </p>
 
@@ -202,10 +202,10 @@ export default function Status() {
           <form onSubmit={handleSubmit} className="space-y-8">
             {/* Data Identitas Singkat */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Data Identitas Singkat</h2>
+              <h2 className="text-2xl font-bold text-secondary mb-6">Data Identitas Singkat</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <label htmlFor="nama" className="block text-gray-700 font-semibold mb-2">
+                  <label htmlFor="nama" className="block text-secondary font-semibold mb-2">
                     Nama *
                   </label>
                   <input
@@ -215,12 +215,12 @@ export default function Status() {
                     value={formData.nama}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent"
                     placeholder="Masukkan nama Anda"
                   />
                 </div>
                 <div>
-                  <label htmlFor="usia" className="block text-gray-700 font-semibold mb-2">
+                  <label htmlFor="usia" className="block text-secondary font-semibold mb-2">
                     Usia *
                   </label>
                   <input
@@ -230,14 +230,14 @@ export default function Status() {
                     value={formData.usia}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent"
                     placeholder="Masukkan usia"
                     min="1"
                     max="50"
                   />
                 </div>
                 <div>
-                  <label htmlFor="usiaKehamilan" className="block text-gray-700 font-semibold mb-2">
+                  <label htmlFor="usiaKehamilan" className="block text-secondary font-semibold mb-2">
                     Usia Kehamilan *
                   </label>
                   <select
@@ -246,7 +246,7 @@ export default function Status() {
                     value={formData.usiaKehamilan}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent"
                   >
                     <option value="">Pilih usia kehamilan</option>
                     <option value="Trimester 1">Trimester 1</option>
@@ -255,7 +255,7 @@ export default function Status() {
                   </select>
                 </div>
                 <div>
-                  <label htmlFor="nomorWA" className="block text-gray-700 font-semibold mb-2">
+                  <label htmlFor="nomorWA" className="block text-secondary font-semibold mb-2">
                     Nomor WA *
                   </label>
                   <input
@@ -265,7 +265,7 @@ export default function Status() {
                     value={formData.nomorWA}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent"
                     placeholder="08xxxxxxxxxx"
                   />
                 </div>
@@ -274,7 +274,7 @@ export default function Status() {
 
             {/* Skrining Kesehatan Gigi */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Skrining Kesehatan Gigi</h2>
+              <h2 className="text-2xl font-bold text-secondary mb-6">Skrining Kesehatan Gigi</h2>
               <div className="space-y-4">
                 {[
                   { name: 'sakitGigi', label: 'Apakah ibu sering mengalami sakit gigi?' },
@@ -285,7 +285,7 @@ export default function Status() {
                   { name: 'mualMuntah', label: 'Apakah ibu mengalami mual muntah berlebih?' }
                 ].map((q) => (
                   <div key={q.name} className="border-b pb-4">
-                    <label className="block text-gray-700 font-semibold mb-2">{q.label}</label>
+                    <label className="block text-secondary font-semibold mb-2">{q.label}</label>
                     <div className="flex gap-4">
                       <label className="flex items-center">
                         <input
@@ -294,9 +294,9 @@ export default function Status() {
                           value="Ya"
                           checked={formData[q.name] === 'Ya'}
                           onChange={handleChange}
-                          className="mr-2 w-4 h-4 text-pink-600"
+                          className="mr-2 w-4 h-4 text-secondary"
                         />
-                        <span className="text-gray-700">Ya</span>
+                        <span className="text-secondary">Ya</span>
                       </label>
                       <label className="flex items-center">
                         <input
@@ -305,16 +305,16 @@ export default function Status() {
                           value="Tidak"
                           checked={formData[q.name] === 'Tidak'}
                           onChange={handleChange}
-                          className="mr-2 w-4 h-4 text-pink-600"
+                          className="mr-2 w-4 h-4 text-secondary"
                         />
-                        <span className="text-gray-700">Tidak</span>
+                        <span className="text-secondary">Tidak</span>
                       </label>
                     </div>
                   </div>
                 ))}
                 
                 <div className="border-b pb-4">
-                  <label htmlFor="terakhirPeriksa" className="block text-gray-700 font-semibold mb-2">
+                  <label htmlFor="terakhirPeriksa" className="block text-secondary font-semibold mb-2">
                     Kapan terakhir kali ibu periksa gigi?
                   </label>
                   <select
@@ -323,7 +323,7 @@ export default function Status() {
                     value={formData.terakhirPeriksa}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent"
                   >
                     <option value="">Pilih waktu terakhir periksa</option>
                     <option value="Kurang dari 3 bulan">Kurang dari 3 bulan</option>
@@ -334,7 +334,7 @@ export default function Status() {
                 </div>
                 
                 <div className="border-b pb-4">
-                  <label className="block text-gray-700 font-semibold mb-2">
+                  <label className="block text-secondary font-semibold mb-2">
                     Apakah ibu mengonsumsi makanan manis setiap hari?
                   </label>
                   <div className="flex gap-4">
@@ -346,9 +346,9 @@ export default function Status() {
                         checked={formData.makananManis === 'Ya'}
                         onChange={handleChange}
                         required
-                        className="mr-2 w-4 h-4 text-pink-600"
+                        className="mr-2 w-4 h-4 text-secondary"
                       />
-                      <span className="text-gray-700">Ya</span>
+                      <span className="text-secondary">Ya</span>
                     </label>
                     <label className="flex items-center">
                       <input
@@ -358,9 +358,9 @@ export default function Status() {
                         checked={formData.makananManis === 'Tidak'}
                         onChange={handleChange}
                         required
-                        className="mr-2 w-4 h-4 text-pink-600"
+                        className="mr-2 w-4 h-4 text-secondary"
                       />
-                      <span className="text-gray-700">Tidak</span>
+                      <span className="text-secondary">Tidak</span>
                     </label>
                   </div>
                 </div>
@@ -369,10 +369,10 @@ export default function Status() {
 
             {/* Kebiasaan Kebersihan Gigi */}
             <div>
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">Kebiasaan Kebersihan Gigi</h2>
+              <h2 className="text-2xl font-bold text-secondary mb-6">Kebiasaan Kebersihan Gigi</h2>
               <div className="space-y-4">
                 <div>
-                  <label htmlFor="frekuensiSikat" className="block text-gray-700 font-semibold mb-2">
+                  <label htmlFor="frekuensiSikat" className="block text-secondary font-semibold mb-2">
                     Frekuensi menyikat gigi setiap hari *
                   </label>
                   <select
@@ -381,7 +381,7 @@ export default function Status() {
                     value={formData.frekuensiSikat}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pink-500 focus:border-transparent"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary focus:border-transparent"
                   >
                     <option value="">Pilih frekuensi</option>
                     <option value="1×">1×</option>
@@ -392,7 +392,7 @@ export default function Status() {
                 </div>
                 
                 <div>
-                  <label className="block text-gray-700 font-semibold mb-2">
+                  <label className="block text-secondary font-semibold mb-2">
                     Apakah ibu sudah menggunakan pasta gigi berfluoride? *
                   </label>
                   <div className="flex gap-4">
@@ -404,9 +404,9 @@ export default function Status() {
                         checked={formData.pastaGigiFluoride === 'Ya'}
                         onChange={handleChange}
                         required
-                        className="mr-2 w-4 h-4 text-pink-600"
+                        className="mr-2 w-4 h-4 text-secondary"
                       />
-                      <span className="text-gray-700">Ya</span>
+                      <span className="text-secondary">Ya</span>
                     </label>
                     <label className="flex items-center">
                       <input
@@ -416,15 +416,15 @@ export default function Status() {
                         checked={formData.pastaGigiFluoride === 'Tidak'}
                         onChange={handleChange}
                         required
-                        className="mr-2 w-4 h-4 text-pink-600"
+                        className="mr-2 w-4 h-4 text-secondary"
                       />
-                      <span className="text-gray-700">Tidak</span>
+                      <span className="text-secondary">Tidak</span>
                     </label>
                   </div>
                 </div>
                 
                 <div>
-                  <label className="block text-gray-700 font-semibold mb-2">
+                  <label className="block text-secondary font-semibold mb-2">
                     Apakah ibu menggunakan benang gigi? *
                   </label>
                   <div className="flex gap-4">
@@ -436,9 +436,9 @@ export default function Status() {
                         checked={formData.benangGigi === 'Ya'}
                         onChange={handleChange}
                         required
-                        className="mr-2 w-4 h-4 text-pink-600"
+                        className="mr-2 w-4 h-4 text-secondary"
                       />
-                      <span className="text-gray-700">Ya</span>
+                      <span className="text-secondary">Ya</span>
                     </label>
                     <label className="flex items-center">
                       <input
@@ -448,15 +448,15 @@ export default function Status() {
                         checked={formData.benangGigi === 'Tidak'}
                         onChange={handleChange}
                         required
-                        className="mr-2 w-4 h-4 text-pink-600"
+                        className="mr-2 w-4 h-4 text-secondary"
                       />
-                      <span className="text-gray-700">Tidak</span>
+                      <span className="text-secondary">Tidak</span>
                     </label>
                   </div>
                 </div>
                 
                 <div>
-                  <label className="block text-gray-700 font-semibold mb-2">
+                  <label className="block text-secondary font-semibold mb-2">
                     Apakah ibu berkumur setelah muntah? *
                   </label>
                   <div className="flex gap-4">
@@ -468,9 +468,9 @@ export default function Status() {
                         checked={formData.kumurSetelahMuntah === 'Ya'}
                         onChange={handleChange}
                         required
-                        className="mr-2 w-4 h-4 text-pink-600"
+                        className="mr-2 w-4 h-4 text-secondary"
                       />
-                      <span className="text-gray-700">Ya</span>
+                      <span className="text-secondary">Ya</span>
                     </label>
                     <label className="flex items-center">
                       <input
@@ -480,9 +480,9 @@ export default function Status() {
                         checked={formData.kumurSetelahMuntah === 'Tidak'}
                         onChange={handleChange}
                         required
-                        className="mr-2 w-4 h-4 text-pink-600"
+                        className="mr-2 w-4 h-4 text-secondary"
                       />
-                      <span className="text-gray-700">Tidak</span>
+                      <span className="text-secondary">Tidak</span>
                     </label>
                   </div>
                 </div>
