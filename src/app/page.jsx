@@ -80,6 +80,30 @@ export default function Home() {
           </Button>
         </div>
       </section>
+
+      {/* Logo Section */}
+      <section className="container mx-auto px-4 py-16 bg-white">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
+          <div className="flex items-center justify-center">
+            <Image
+              src="/images/logo-1.png"
+              alt="Rumah Sakit Gigi Mulut Bhakti Wiyata"
+              width={200}
+              height={200}
+              className="object-contain"
+            />
+          </div>
+          <div className="flex items-center justify-center">
+            <Image
+              src="/images/logo-2.png"
+              alt="PUSKESMAS MOJO"
+              width={200}
+              height={200}
+              className="object-contain"
+            />
+          </div>
+        </div>
+      </section>
     </div>
   )
 }

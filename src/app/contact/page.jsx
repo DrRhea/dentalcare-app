@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Card from '@/components/Card'
+import Image from 'next/image'
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -103,7 +104,7 @@ export default function Contact() {
 
           <div className="mt-8 pt-8 border-t border-gray-200">
             <h3 className="text-lg font-semibold text-gray-800 mb-4">Informasi Kontak</h3>
-            <div className="space-y-3 text-gray-600">
+            <div className="space-y-3 text-gray-600 mb-8">
               <p className="flex items-center">
                 <svg className="w-5 h-5 text-pink-600 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
@@ -123,6 +124,28 @@ export default function Contact() {
                 </svg>
                 Alamat: Jakarta, Indonesia
               </p>
+            </div>
+            
+            {/* Logo Section */}
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 pt-6 border-t border-gray-200">
+              <div className="flex items-center justify-center">
+                <Image
+                  src="/images/logo-1.png"
+                  alt="Rumah Sakit Gigi Mulut Bhakti Wiyata"
+                  width={180}
+                  height={180}
+                  className="object-contain"
+                />
+              </div>
+              <div className="flex items-center justify-center">
+                <Image
+                  src="/images/logo-2.png"
+                  alt="PUSKESMAS MOJO"
+                  width={180}
+                  height={180}
+                  className="object-contain"
+                />
+              </div>
             </div>
           </div>
         </Card>
