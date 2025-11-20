@@ -6,14 +6,27 @@ export default function Home() {
   return (
     <div className="bg-gradient-to-b from-primary to-white">
       {/* Hero Section */}
-      <section className="relative h-screen min-h-[100vh] w-full overflow-hidden">
-        <Image
-          src="/images/image-si-bunda.jpg"
-          alt="SI BUNDA GIGI - Sahabat Ibu Hamil"
-          fill
-          className="object-cover object-center"
-          priority
-        />
+      <section className="relative w-full overflow-hidden">
+        {/* Mobile: tampilkan penuh dengan object-contain */}
+        <div className="relative w-full h-[60vh] md:hidden">
+          <Image
+            src="/images/image-si-bunda.jpg"
+            alt="SI BUNDA GIGI - Sahabat Ibu Hamil"
+            fill
+            className="object-contain object-center"
+            priority
+          />
+        </div>
+        {/* Desktop: full screen dengan object-cover */}
+        <div className="relative hidden md:block h-screen min-h-[100vh] w-full">
+          <Image
+            src="/images/image-si-bunda.jpg"
+            alt="SI BUNDA GIGI - Sahabat Ibu Hamil"
+            fill
+            className="object-cover object-center"
+            priority
+          />
+        </div>
       </section>
 
       {/* Apa itu Kesehatan Gigi - 3 Kolom Card */}
