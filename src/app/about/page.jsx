@@ -18,27 +18,27 @@ export default function About() {
           </div>
         </section>
 
-        {/* Manfaat Menjaga Kesehatan Gigi */}
+        {/* Manfaat Menjaga Kesehatan Gigi Ibu Hamil */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold text-center text-accent mb-12">
-            Manfaat Menjaga Kesehatan Gigi
+            Manfaat Menjaga Kesehatan Gigi Ibu Hamil
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Card
-              title="Mencegah Karies Gigi"
-              description="Dengan menyikat gigi secara teratur dan benar, kita dapat mencegah terbentuknya plak yang menyebabkan karies gigi."
+              title="1. Mencegah Peradangan Gusi (Gingivitis Kehamilan)"
+              description="Perubahan hormon selama kehamilan membuat gusi lebih sensitif. Perawatan yang baik mencegah gusi bengkak, merah, dan mudah berdarah."
             />
             <Card
-              title="Mencegah Bau Mulut"
-              description="Kebersihan gigi yang terjaga membantu mencegah bau mulut yang tidak sedap dan meningkatkan kepercayaan diri."
+              title="2. Mengurangi Risiko Infeksi yang Dapat Mempengaruhi Janin"
+              description="Infeksi gigi atau gusi dapat memicu respon peradangan yang berhubungan dengan kelahiran prematur dan bayi lahir dengan berat badan rendah. Menjaga kesehatan gigi berarti menjaga kesehatan bayi."
             />
             <Card
-              title="Mencegah Penyakit Gusi"
-              description="Merawat gigi dengan baik dapat mencegah penyakit gusi seperti gingivitis dan periodontitis yang dapat menyebabkan gigi tanggal."
+              title="3. Mencegah Karies dan Sakit Gigi"
+              description="Gigi berlubang cenderung memburuk selama hamil akibat perubahan pola makan, muntah, dan malas menyikat gigi. Merawat gigi membantu mencegah rasa sakit dan komplikasi."
             />
             <Card
-              title="Meningkatkan Kesehatan Umum"
-              description="Kesehatan gigi yang baik berkaitan erat dengan kesehatan tubuh secara keseluruhan, termasuk kesehatan jantung dan diabetes."
+              title="4. Membantu Ibu Makan Lebih Nyaman"
+              description="Rasa sakit gigi dapat mengganggu pola makan. Gigi dan gusi yang sehat membantu ibu makan dengan baik untuk mendukung nutrisi janin."
             />
           </div>
         </section>
@@ -50,24 +50,24 @@ export default function About() {
           </h2>
           <div className="max-w-3xl mx-auto space-y-6">
             <Card
-              title="Seberapa sering saya harus menyikat gigi?"
-              description="Disarankan untuk menyikat gigi minimal 2 kali sehari, yaitu setelah sarapan dan sebelum tidur. Gunakan pasta gigi berfluoride dan sikat gigi dengan bulu yang lembut."
+              title="1. Apakah aman periksa gigi saat hamil?"
+              description="Ya, aman. Pemeriksaan rutin dan perawatan dasar justru dianjurkan, terutama pada trimester kedua."
             />
             <Card
-              title="Kapan waktu yang tepat untuk periksa ke dokter gigi?"
-              description="Disarankan untuk melakukan pemeriksaan rutin ke dokter gigi setiap 6 bulan sekali. Namun, jika ada keluhan atau masalah, segera konsultasikan ke dokter gigi."
+              title="2. Bisakah ibu hamil melakukan tambal gigi?"
+              description="Bisa. Bahan tambal aman dan tidak membahayakan janin. Waktu terbaik adalah trimester kedua."
             />
             <Card
-              title="Apakah penting menggunakan benang gigi?"
-              description="Ya, benang gigi (dental floss) sangat penting untuk membersihkan sela-sela gigi yang tidak dapat dijangkau oleh sikat gigi. Gunakan benang gigi minimal sekali sehari."
+              title="3. Apakah obat sakit gigi aman untuk ibu hamil?"
+              description="Hanya obat tertentu yang aman. Sebaiknya konsultasi dulu dengan dokter atau bidan sebelum minum obat apa pun."
             />
             <Card
-              title="Bagaimana cara mencegah gigi berlubang?"
-              description="Cara mencegah gigi berlubang antara lain: menyikat gigi secara teratur, mengurangi konsumsi makanan manis, menggunakan pasta gigi berfluoride, dan melakukan pemeriksaan rutin ke dokter gigi."
+              title="4. Bagaimana jika mual saat menyikat gigi?"
+              description="Gunakan sikat kecil, pasta gigi dengan aroma ringan dan menyikat pada waktu ketika mual berkurang."
             />
             <Card
-              title="Apakah penting menggunakan obat kumur?"
-              description="Obat kumur dapat membantu membersihkan mulut dan mengurangi bakteri, namun tidak menggantikan fungsi menyikat gigi. Gunakan sebagai pelengkap perawatan gigi."
+              title="5. Haruskah periksa gigi sebelum hamil?"
+              description="Sangat dianjurkan untuk mencegah masalah selama kehamilan, karena beberapa perawatan lebih sulit dilakukan saat hamil."
             />
           </div>
         </section>
