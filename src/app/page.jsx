@@ -7,24 +7,15 @@ export default function Home() {
     <div className="bg-gradient-to-b from-primary to-white">
       {/* Hero Section */}
       <section className="relative w-full overflow-hidden">
-        {/* Mobile: tampilkan penuh dengan object-contain */}
-        <div className="relative w-full h-[60vh] md:hidden">
+        <div className="relative w-full">
           <Image
             src="/images/image-si-bunda.jpg"
             alt="SI BUNDA GIGI - Sahabat Ibu Hamil"
-            fill
-            className="object-contain object-center"
+            width={1920}
+            height={1080}
+            className="w-full h-auto"
             priority
-          />
-        </div>
-        {/* Desktop: full screen dengan object-cover */}
-        <div className="relative hidden md:block h-screen min-h-[100vh] w-full">
-          <Image
-            src="/images/image-si-bunda.jpg"
-            alt="SI BUNDA GIGI - Sahabat Ibu Hamil"
-            fill
-            className="object-cover object-center"
-            priority
+            unoptimized
           />
         </div>
       </section>
